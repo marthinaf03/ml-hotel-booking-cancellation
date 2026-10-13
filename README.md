@@ -6,7 +6,6 @@ Booking cancellations are one of the main sources of revenue loss for hotels: a 
 This project analyses about 119,000 real bookings from two hotels in Portugal (a City Hotel and a Resort Hotel) to predict whether a booking will be cancelled and to understand which factors and customer segments are most associated with cancellations. The analysis follows the **CRISP-DM** methodology.
 
 Final assignment – *Machine Learning and Data Mining (Module I)*, University of Bologna, A.Y. 2026/27.
-Author: **Martina Fava**
 
 ## Main tasks
 - Understand the business problem and the cost of a cancellation for the hotel
