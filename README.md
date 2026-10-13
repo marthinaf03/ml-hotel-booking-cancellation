@@ -6,6 +6,7 @@ Booking cancellations are one of the main sources of revenue loss for hotels: a 
 This project analyses about 119,000 real bookings from two hotels in Portugal (a City Hotel and a Resort Hotel) to predict whether a booking will be cancelled and to understand which factors and customer segments are most associated with cancellations. The analysis follows the **CRISP-DM** methodology.
 
 Final assignment – *Machine Learning and Data Mining (Module I)*, University of Bologna, A.Y. 2026/27.
+Author: **Martina Fava**
 
 ## Main tasks
 - Understand the business problem and the cost of a cancellation for the hotel
@@ -14,7 +15,7 @@ Final assignment – *Machine Learning and Data Mining (Module I)*, University o
 - Interpret the models to find the main drivers of cancellation
 - Turn the results into practical suggestions on deposit policies and overbooking
 
-## 📁 Repository structure
+## Repository structure
 ```text
 ml-hotel-booking-cancellation/
 ├── hotel_booking_cancellation.ipynb   # Colab notebook with the full analysis
@@ -26,7 +27,7 @@ ml-hotel-booking-cancellation/
 └── README.md
 ```
 
-## 🗎 Project structure
+## Project structure
 All the analysis is contained in a single notebook, organised according to the CRISP-DM phases.
 
 ```text
@@ -56,7 +57,7 @@ hotel_booking_cancellation.ipynb
 ## How to run
 Open the notebook in Google Colab and run all cells (*Runtime → Run all*). The dataset is loaded directly from this repository, so no manual upload is needed.
 
-## 📊 Results
+## Results
 *To be added at the end of the project.*
 
 | Model | Precision | Recall | F1-score | PR-AUC |
