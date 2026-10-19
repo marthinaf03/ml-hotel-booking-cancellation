@@ -104,7 +104,7 @@ Four models were tuned with stratified cross-validation and evaluated on a held-
 ## Future work
 - **Retrain the model periodically**: a temporal validation (train 2015–2016, test 2017) showed a drop in performance (PR-AUC 0.677), due to changes in cancellation behaviour over time
 - Include **real cost data** (value of an empty room, cost of a false alarm) to choose the threshold that maximises the expected profit
-- Retrain and validate the model on data from other hotels and more recent years
+- Validate the model on data from other hotels and more recent years
 - Test the recommendations (e.g. reminders, deposits) on a subset of bookings to measure their real impact
 
 ## Data source
