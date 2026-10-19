@@ -85,7 +85,7 @@ Four models were tuned with stratified cross-validation and evaluated on a held-
 | Random Forest | 0.629 | 0.796 | 0.703 | 0.767 |
 | **XGBoost** | **0.612** | **0.821** | **0.701** | **0.778** |
 
-- **XGBoost** is the best model. With a decision threshold of **0.4**, chosen because missing a cancellation is more costly than a false alarm, it detects **89%** of the cancellations.
+- **XGBoost** is selected as the final model, having the highest PR-AUC and Recall (Random Forest is very close, with a slightly higher F1-score). With a decision threshold of **0.4**, chosen because missing a cancellation is more costly than a false alarm, it detects **89%** of the cancellations.
 - The main drivers of cancellation (SHAP) are the **guest's country** (domestic guests cancel more), the **lead time**, the **number of special requests** (which strongly reduce the risk) and the **booking channel** (online travel agencies are riskier).
 - **Risk segmentation**: the high-risk group contains only **24% of the bookings but 63% of the cancellations**.
 
