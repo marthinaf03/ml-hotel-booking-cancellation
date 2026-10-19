@@ -81,8 +81,8 @@ Four models were tuned with stratified cross-validation and evaluated on a held-
 | Model | Precision | Recall | F1-score | PR-AUC |
 |-------|-----------|--------|----------|--------|
 | Logistic Regression | 0.534 | 0.770 | 0.630 | 0.665 |
-| Decision Tree | 0.561 | 0.814 | 0.665 | 0.717 |
-| Random Forest | 0.609 | 0.819 | 0.699 | 0.766 |
+| Decision Tree | 0.555 | 0.826 | 0.664 | 0.718 |
+| Random Forest | 0.629 | 0.796 | 0.703 | 0.767 |
 | **XGBoost** | **0.612** | **0.821** | **0.701** | **0.778** |
 
 - **XGBoost** is the best model. With a decision threshold of **0.4**, chosen because missing a cancellation is more costly than a false alarm, it detects **89%** of the cancellations.
