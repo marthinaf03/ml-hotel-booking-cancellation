@@ -59,7 +59,8 @@ hotel_booking_cancellation.ipynb
 │   ├── 5.1 Performance on the test set
 │   ├── 5.2 Confusion matrix
 │   ├── 5.3 Precision-Recall curve and choice of the threshold
-│   └── 5.4 Model interpretation with SHAP
+│   ├── 5.4 Model interpretation with SHAP
+│   └── 5.5 Temporal validation
 └── 6. Deployment
     ├── 6.1 Risk segmentation
     ├── 6.2 Business recommendations
@@ -101,7 +102,7 @@ Four models were tuned with stratified cross-validation and evaluated on a held-
 - **Overbooking** only at aggregate level, using the expected number of cancellations per date
 
 ## Future work
-- Use a **time-based split** (train on older bookings, test on the most recent ones) to better simulate the real use of the model
+- **Retrain the model periodically**: a temporal validation (train 2015–2016, test 2017) showed a drop in performance (PR-AUC 0.677), due to changes in cancellation behaviour over time
 - Include **real cost data** (value of an empty room, cost of a false alarm) to choose the threshold that maximises the expected profit
 - Retrain and validate the model on data from other hotels and more recent years
 - Test the recommendations (e.g. reminders, deposits) on a subset of bookings to measure their real impact
